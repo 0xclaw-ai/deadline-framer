@@ -1,4 +1,4 @@
-# 0xClaw DeadlineFramer
+# 🦀 0xClaw Deadline Framer ⏱️
 
 DeadlineFramer converts BudgetRouter control tokens into phase-specific natural-language guidance for hackathon agents.
 
