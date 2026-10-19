@@ -2,6 +2,7 @@
 name = "oxclaw-deadlineframer"
 version = "0.1.0"
 description = "DeadlineFramer prompt guidance for BudgetRouter control tokens"
+readme = "README.md"
 requires-python = ">=3.11"
 license = {text = "MIT"}
 authors = [
@@ -15,3 +16,9 @@ build-backend = "hatchling.build"
 
 [tool.hatch.build.targets.wheel]
 packages = ["deadline_framer"]
+
+[project.entry-points."oxclaw.phase_controls"]
+deadline-framer = "deadline_framer.integration:DeadlineFramerPlugin"
+
+[project.urls]
+Repository = "https://github.com/0xclaw-ai/deadline-framer"
